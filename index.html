@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="java/bootstrap.bundle.min.js"></script>
+
+    <title>bookmarker</title>
+</head>
+<body>
+    <div class="container">
+        <h1> Bookmark</h1>
+<div class="form">
+<h2 class="mb-3"> Bookmark your favourite site</h2>
+    <label for="sitename"> site name</label>
+    <input type="text" class="form-control" id="sitename" placeholder="Enter the name of the site">
+    <div id="namealert"  class="alert alert-danger p-2 mt-3 d-none"> invalid Name for the site</div>
+
+
+
+    <label for="sitelink"> site link</label>
+    <input type="text" class="form-control" id="sitelink" placeholder="Enter the link of the site">
+    <div id="linkalert"  class="alert alert-danger p-2 mt-3 d-none"> Invalid URL</div>
+
+    <button disabled id="addbtn" class="btn btn-danger mt-4"> Submit</button>
+</div>
+
+<table class="table table-striped table-hover">
+    <thead>
+        <th>Site name</th>
+    </thead>
+    <tbody id="tablebody"> 
+       <!-- <tr> <td> seif</td>
+    <td><button>sss</button></td>
+    </tr> -->
+
+    </tbody>
+
+
+</table>
+
+</div>
+
+<script src="java/style.js"></script>
+</body>
+</html>
