@@ -1,2 +1,2 @@
 # bookmark
-bookmark your favourit esite to vidit it any time
+bookmark your favourit sites to visit it anytime
